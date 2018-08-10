@@ -1,0 +1,45 @@
+
+@media screen and (max-width: 620px) {
+    #contact { width:100%; }
+    .cont { padding: 0; }
+    .border-c {
+        border: 0;
+    }
+    .menu-trigger a{
+        display: none;
+    }
+    .header{
+        top:0;
+    }
+    .header h2{       
+    
+        line-height: 24px;
+    }
+    div.nav-menu {
+        padding: 0;
+    }
+    div.nav-menu ul li {
+        list-style: none;
+        font-size: 18px;
+        padding: 5px 0;
+        text-transform:uppercase;
+    }
+    /* Buttons */
+    ul#ct-btns{
+        width: 216px;
+    }
+    ul#ct-btns li{
+        margin: 4px 7px 4px 0;
+    }
+    a.animated-button:link, a.animated-button:visited {
+        font-size: 12px;
+    }
+    /* Transform */
+    .custom-t{
+        -webkit-transform: translate3d(60%, 0, 0) scale3d(0.85, 0.85, 1);
+        -moz-transform: translate3d(60%, 0, 0) scale3d(0.85, 0.85, 1);
+        -ms-transform: translate3d(60%, 0, 0) scale3d(0.85, 0.85, 1);
+        -o-transform: translate3d(60%, 0, 0) scale3d(0.85, 0.85, 1);
+        transform: translate3d(60%, 0, 0) scale3d(0.85, 0.85, 1);
+    }
+    }
